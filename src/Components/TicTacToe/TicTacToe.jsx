@@ -16,11 +16,11 @@ const TicTacToe = () => {
     const newData = [...data];
     if (count % 2 === 0) {
       e.target.innerHTML = `<img src='${cross_icon}'>`;
-      newData[num] = "X"; // Use consistent casing for "X"
+      newData[num] = "X"; 
       setCount(count + 1);
     } else {
       e.target.innerHTML = `<img src='${circle_icon}'>`;
-      newData[num] = "O"; // Use consistent casing for "O"
+      newData[num] = "O";
       setCount(count + 1);
     }
     setData(newData);
@@ -98,3 +98,4 @@ const TicTacToe = () => {
 };
 
 export default TicTacToe;
+//LucaasTunes
